@@ -21,8 +21,12 @@ const string = "Let's have dinner together!";
 function sayHiToHeadphonedRoommate(string) {
     if (string === ("Let's have dinner together!")) {
         return "I would love to!";
-    } else {
-        return "YES INDEED!";
+        if (string === string.toUpperCase()) {
+            return "YES INDEED!";
+            if (string === string.toLowerCase()) {
+                return "I can't hear you!"
+            }
+        }
     }
 
 }
